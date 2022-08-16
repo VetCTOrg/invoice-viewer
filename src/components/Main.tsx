@@ -12,7 +12,13 @@ export const Main: FC = () => {
   return (
     <>
       <AppBar />
-      <Row bgcolor="background.grey" p={2} maxHeight="100%" minHeight="0">
+      <Row
+        bgcolor="background.grey"
+        p={2}
+        maxHeight="100%"
+        minHeight="0"
+        flexGrow={1}
+      >
         <SideBar
           setMonthOfCases={setMonthOfCases}
           selectedMonth={selectedMonth}
