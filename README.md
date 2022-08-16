@@ -12,6 +12,10 @@ Cases are invoiced on a monthly basis to the client.
 
 Build an interface which allows an internal staff member to view an invoice for each client.
 
+## Getting Started
+
+Clone this repository, and run `yarn` in your terminal.
+
 ## Available Scripts
 
 In the project directory, you can run:
