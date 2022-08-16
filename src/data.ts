@@ -34,6 +34,34 @@ export type CaseData = {
   BODYAREACOUNT: number;
 };
 
+export const paymentDetails = {};
+
+export const businessAddresses = [
+  {
+    name: "Vet CT Specialists Ltd",
+    addressLine1: "Broers Building",
+    addressLine2: "The Hauser Forum",
+    addressLine3: "21 JJ Thomson Avenue",
+    city: "Cambridge",
+    postCode: "CB3 0FA",
+    email: "example@example.com",
+  },
+  {
+    name: "Safe Vets",
+    addressLine1: "4 Acheron Road",
+    city: "Driffield",
+    postCode: "3840",
+    country: "Australia",
+  },
+  {
+    name: "Magic Vets",
+    addressLine1: "70 Mnimbah Road",
+    city: "Salt Ash",
+    postCode: "2318",
+    country: "Australia",
+  },
+];
+
 export const data: CaseData[] = [
   {
     ISSUE_ID: 487916,
